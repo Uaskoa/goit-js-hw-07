@@ -1,11 +1,21 @@
+const itemRef = document.querySelectorAll(".item");
 
+console.log(`В списке ${itemRef.length} категории`);
 
+itemRef.forEach((item) =>
+  console.log(
+    "Категория: ",
+    item.firstElementChild.textContent,
+    "Количество элементов: ",
+    item.lastElementChild.children.length
+  )
+);
 
-
-
-
-
-
+// console.log(
+//     "Категория: ",
+//     itemRef[0].firstElementChild.textContent,
+//     "Количество элементов: ", itemRef[0].lastElementChild.children.length
+// );
 // Напиши скрипт, который выполнит следующие операции.
 
 // Посчитает и выведет в консоль количество категорий в ul#categories,
