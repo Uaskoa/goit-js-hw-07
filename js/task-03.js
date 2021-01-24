@@ -54,11 +54,3 @@ galleryListRef.insertAdjacentHTML("afterbegin", liHtmlArray.join(""));
 // const imageCards = images.map((image) => createImg(image));
 
 // galleryListRef.append(...imageCards);
-
-
-
-// Используй массив объектов images для создания тегов img вложенных в li.
-// Для создания разметки используй шаблонные строки и insertAdjacentHTML().
-
-// Все элементы галереи должны добавляться в DOM за одну операцию вставки.
-// Добавь минимальное оформление галереи флексбоксами или гридами через css-классы.
