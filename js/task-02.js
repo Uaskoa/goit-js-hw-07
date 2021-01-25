@@ -21,5 +21,3 @@ const ingredientCards = ingredients.map((ingredient) =>
 );
 
 ingredientsListRef.append(...ingredientCards);
-
-
