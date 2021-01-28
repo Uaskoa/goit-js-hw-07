@@ -12,8 +12,12 @@ function handleInputBlur() {
   return inputRef.classList.add("invalid"), inputRef.classList.remove("valid");
 }
 
-
-
+// function handleInputBlur() {
+//   if (inputRef.value.length === inputLengthRef) {
+//     inputRef.classList.add("valid"), inputRef.classList.remove("invalid");
+//   }
+//   inputRef.classList.add("invalid"), inputRef.classList.remove("valid");
+// }
 
 //   if (e.target.value.length === inputLengthRef) {
 //     return (
@@ -22,4 +26,3 @@ function handleInputBlur() {
 //   }
 //   return inputRef.classList.add("invalid"), inputRef.classList.remove("valid");
 // });
-

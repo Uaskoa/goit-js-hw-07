@@ -4,11 +4,18 @@ const outputRef = document.querySelector("#name-output");
 inputRef.addEventListener("input", handleInput);
 
 function handleInput() {
-  if (inputRef.value) {
-    return (outputRef.textContent = inputRef.value);
-  }
-  return (outputRef.textContent = "незнакомец");
+  outputRef.textContent = inputRef.value || "незнакомец";
 }
+
+
+
+
+// function handleInput() {
+//   if (inputRef.value) {
+//     return (outputRef.textContent = inputRef.value);
+//   }
+//   return (outputRef.textContent = "незнакомец");
+// }
 
 // inputRef.addEventListener("input", () => {
 //   if (inputRef.value) {
